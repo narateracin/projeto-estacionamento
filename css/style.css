@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+:root {
+    --border: #E2E2E2;
+}
+
+body {
+    background-image: linear-gradient(0deg, rgba(174,170,251,1) 0%, rgba(230,231,255,1) 100%);
+    background-attachment: fixed;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+#container {
+    margin: 10vh auto;
+    text-align: center;
+}
+
+.form-cont {
+    background-color: #fff;
+    width: 50%;
+    margin: auto;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.container-inputs {
+    margin: 15px;
+}
+
+.container-inputs label {
+    font-weight: 700;
+}
+
+.container-inputs input[type=text] {
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.container-inputs input[type=text]::placeholder {
+    text-transform: lowercase;
+}
+
+.form-cont button {
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: #C285FF;
+    color: #fff;
+    border: 1px solid transparent;
+}
+
+.form-cont button:hover {
+    border: 1px solid #9243E3;
+}
+
+table {
+    border: 1px solid var(--border);
+    border-collapse: collapse;
+    margin: 5vh auto;
+    width: 50%;
+}
+
+table th {
+    border: 1px solid var(--border);
+    padding: 10px;
+    background-color: #F0F0F0;
+}
+
+table td {
+    border: 1px solid var(--border);
+    padding: 10px;
+    letter-spacing: 1px;
+    background-color: #fff;
+}
+
+.delete {
+    background-color: #FF6C6C;
+    color: #fff;
+    padding: 10px;
+    box-sizing: 5px;
+    border: 1px solid transparent;
+    border-radius: 100%;
+    width: 40px;
+}
+
+.delete:hover {
+    border: 1px solid #DC1A1A;
+}
